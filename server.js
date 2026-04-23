@@ -6,7 +6,7 @@ const Anthropic = require("@anthropic-ai/sdk");
 const app = express();
 const PORT = 5000;
 
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: ["http://localhost:3000", "http://localhost:3001", "https://ai-chatbot-web.onrender.com", "http://ai-chatbot-web.onrender.com"] }));
 app.use(express.json());
 
 const Anthropic2 = Anthropic.default || Anthropic;
