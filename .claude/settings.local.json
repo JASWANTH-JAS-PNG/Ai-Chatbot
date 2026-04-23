@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node -e \"const A = require\\('@anthropic-ai/sdk'\\); console.log\\(typeof A, typeof A.default, typeof A.Anthropic\\)\")",
+      "Bash(npx react-scripts *)",
+      "Read(//c/c/Users/pedda/Desktop/ai/**)",
+      "Bash(dotnet ef *)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet tool *)",
+      "Bash(dotnet clean *)",
+      "Bash(dotnet restore *)",
+      "Bash(dotnet new *)",
+      "Bash(dotnet add *)",
+      "Bash(xargs ls *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)"
+    ]
+  }
+}
